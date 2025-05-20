@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-специалист</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: white;
+            width: 350px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+
+        h1 {
+            color: #333;
+            margin: 0 0 10px;
+        }
+
+        p {
+            color: #666;
+            margin: 0;
+        }
+
+        .skills {
+            margin: 20px 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .skill {
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 4px;
+            color: #333;
+            text-align: center;
+        }
+
+        .contact {
+            margin: 20px 0;
+        }
+
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/120" alt="Профиль" class="profile-img">
+        <h1>Александр Петров</h1>
+        <p>IT-специалист</p>
+        
+        <div class="skills">
+            <div class="skill">
+                <h3>HTTP</h3>
+                <p>Глубокое понимание протокола</p>
+                <p>Методы GET/POST/PUT/DELETE</p>
+                <p>Работа с заголовками</p>
+            </div>
+            <div class="skill">
+                <h3>REST API</h3>
+                <p>Проектирование API</p>
+                <p>JSON/XML</p>
+                <p>Тестирование</p>
+            </div>
+            <div class="skill">
+                <h3>SOAP</h3>
+                <p>WSDL</p>
+                <p>SOAP-запросы</p>
+                <p>Интеграция</p>
+            </div>
+            <div class="skill">
+                <h3>DevTools</h3>
+                <p>Отладка</p>
+                <p>Профилирование</p>
+                <p>Мониторинг</p>
+            </div>
+            <div class="skill">
+                <h3>SQL</h3>
+                <p>Базы данных</p>
+                <p>Оптимизация</p>
+                <p>Транзакции</p>
+            </div>
+            <div class="skill">
+                <h3>Charles Proxy</h3>
+                <p>Анализ трафика</p>
+                <p>Отладка</p>
+                <p>Прокси-серверы</p>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <p>Email: <a href="mailto:alex.petrov@example.com">alex.petrov@example.com</a></p>
+            <p>Телефон: <a href="tel:+712
